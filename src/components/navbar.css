@@ -1,0 +1,113 @@
+.Navbar {
+  display: flex;
+  padding: 15px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  border-bottom: 1px solid gainsboro;
+}
+.Navbar a {
+    color: black;
+}
+
+.Logo a {
+    display: flex;
+    align-items: center;
+}
+.Logo a svg {
+  font-size: 55px;
+}
+.Logo a h1 {
+    padding: 0 10px 0 10px;
+}
+.navbar-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.Menu {
+    
+}
+.Menu a{
+    padding: 15px ;
+    margin: 0 5px 0 0;
+    border: 1px solid white;
+    border-radius: 15px;
+}
+.Menu a:hover{
+    border-color: gainsboro;
+}
+
+.Cart, .User {
+    background-color: ghostwhite;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid gainsboro;
+    width: 30px;
+    height: 30px;
+    border-radius: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+}
+.Cart a, .User a {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.Cart a svg, .User a svg {
+    color: gray;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+.Sidebar {
+    border-right: 1px solid gainsboro;
+    padding: 15px;
+}
+.Layout{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.Layout img{
+}
+.Products {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    border: 1px solid gainsboro;
+    padding: 0 30px 0 0;
+    background-color: whitesmoke;
+
+}
+.Products:hover{
+    background-color: white;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+    z-index: 1;
+}
+.Products h3{
+    font-size: 22px;
+    max-width: 65%;
+    text-align: center;
+    padding: 5px;
+    font-weight: normal;
+}
+.Products h4{
+    justify-content: flex-end;
+    font-size: 18px;
+}
+.Footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    border-top: 1px solid gainsboro;
+}
